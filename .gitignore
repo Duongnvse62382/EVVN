@@ -12,4 +12,8 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.log
+*.tmp
+/.idea/**/*.xml
+/.idea/misc.xml
+
