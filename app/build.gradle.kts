@@ -13,7 +13,6 @@ plugins {
 android {
     namespace = "com.king.evvn"
     compileSdk = 36
-
     defaultConfig {
         applicationId = "com.king.evvn"
         minSdk = 33
@@ -97,4 +96,7 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.kotlinx.serialization)
     implementation(libs.okhttp.logging)
+
+    // Coroutines test dependency - ADDED
+    testImplementation(libs.kotlinx.coroutines.test)
 }
